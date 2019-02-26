@@ -47,3 +47,4 @@ for (i in 1:44448){
 }
 
 Company_InfoDF = do.call(rbind, company_info_list)
+write.csv(Company_InfoDF, "Company_Info.csv")
